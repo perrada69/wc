@@ -9,5 +9,7 @@ Usage:
 
 Copy file of wc to directory /dot/
 
-![alt text](https://photos.app.goo.gl/FSDP4kQbj3tffypN6)
+![alt text](http://mb-maniax.cz/wp-content/uploads/2021/06/20210629_132245.jpg)
+
+![alt text](http://mb-maniax.cz/wp-content/uploads/2021/06/20210628_201006.jpg)
 
