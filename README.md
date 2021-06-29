@@ -7,4 +7,7 @@ Usage:
 .wc status  - show status on wifi connection
 .wc - run gui to connect ;)
 
-[https://photos.app.goo.gl/FSDP4kQbj3tffypN6]
+Copy file of wc to directory /dot/
+
+![alt text](https://photos.app.goo.gl/FSDP4kQbj3tffypN6)
+
