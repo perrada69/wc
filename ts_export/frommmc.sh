@@ -20,8 +20,8 @@ hdfmonkey ls "$MMC" "$WCDIR" > /dev/null || { echo "Source directory '$WCDIR' do
 # get all WC files converted to ASM from MMC image
 echo "Getting text/asm files from '$MMC', directory '$WCDIR':"
 PADDING="@                                       @"
-for f in ../*.odn; do
-    ASM_FILE=${f##../}
+for f in ../src/*.odn; do
+    ASM_FILE=${f##../src/}
     ASM_FILE="${ASM_FILE/%.odn/.asm}"
     CARD_FILE="$WCDIR/$ASM_FILE"
     CARD_FILE_STRLEN=${#CARD_FILE}

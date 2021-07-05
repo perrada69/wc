@@ -20,8 +20,8 @@ hdfmonkey ls "$MMC" "$WCDIR" > /dev/null || { echo "Target directory '$WCDIR' do
 # put all WC files into MMC image
 echo "Putting files into '$MMC', directory '$WCDIR':"
 echo -n " + "
-for f in ../*.{bin,odn}; do
-    echo -n "${f##../} "
+for f in ../src/*.{bin,odn}; do
+    echo -n "${f##../src/} "
     hdfmonkey put "$MMC" "$f" "$WCDIR" || { echo " (ERROR)"; exit 3; }
 done
 echo "(all OK)"
